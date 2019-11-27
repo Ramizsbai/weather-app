@@ -1,0 +1,20 @@
+
+
+  body{
+
+    background-image: url("clouds-light-mountains1.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    height: 100vh;
+  }
+  .container{
+    max-width: 400px;
+
+  }
+  .lead {
+      font-size: 40px;
+  }
+
+ 
