@@ -8,7 +8,7 @@ const api = 'YcIAnHBf0sqksbYFejsewgDsh2qvoCuI';
 
 const weather = async (key) => {
 
-const link = 'http://dataservice.accuweather.com/currentconditions/v1/';
+const link = 'https://cors-anywhere.herokuapp.com/http://dataservice.accuweather.com/currentconditions/v1/';
 const target = `${key}?apikey=${api}`;
 
 const response = await fetch(link + target);
