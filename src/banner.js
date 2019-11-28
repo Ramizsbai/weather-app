@@ -24,7 +24,7 @@ return data[0];
 
 const getCity = async (city) => {
 
-const link = 'http://dataservice.accuweather.com/locations/v1/cities/search';
+const link = 'https://cors-anywhere.herokuapp.com/http://dataservice.accuweather.com/locations/v1/cities/search';
 const target = `?apikey=${api}&q=${city}`;
 
 const response = await fetch(link + target);
