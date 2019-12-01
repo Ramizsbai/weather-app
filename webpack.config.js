@@ -2,6 +2,7 @@ module.exports = {
     module: {
       rules: [
         {
+          publicPath: "/webpack-demo/",
           test: /\.css$/,
           use: ["style-loader", "css-loader"]
         },
